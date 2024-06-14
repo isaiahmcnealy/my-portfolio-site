@@ -1,0 +1,7 @@
+/* styles/Home.module.css */
+.main {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+}

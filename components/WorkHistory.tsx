@@ -1,5 +1,5 @@
 // components/WorkHistory.tsx
-import styles from './WorkHistory.module.css';
+import styles from '../../styles/Work.module.css';
 
 const WorkHistory = () => (
   <section className={styles.workHistory}>

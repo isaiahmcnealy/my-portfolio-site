@@ -1,5 +1,5 @@
 // components/Blog.tsx
-import styles from './Blog.module.css';
+import styles from '../../styles/Blog.module.css';
 
 const Blog = () => (
   <section className={styles.blog}>

@@ -1,5 +1,5 @@
 // components/AboutMe.tsx
-import styles from './AboutMe.module.css';
+import styles from '../../styles/About.module.css';
 
 const AboutMe = () => (
   <section className={styles.aboutMe}>
