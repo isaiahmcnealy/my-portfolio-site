@@ -9,15 +9,15 @@ const Experience = () => (
           <h3 className="text-2xl font-semibold text-teal-500">{exp.role}</h3>
           <h4 className="text-lg mb-2">{exp.company}</h4>
           <p className="mb-2">{exp.duration}</p>
-          <ul className="list-disc ml-4">
+          <ul className="list-none ml-0">
             {exp.description.map((desc, i) => (
               <li key={i} className="mb-1">{desc}</li>
             ))}
           </ul>
-           {exp.skills && (
-            <div className="flex flex-wrap space-x-2">
+          {exp.skills && (
+            <div className="flex flex-wrap mt-2">
               {exp.skills.map((skill, i) => (
-                <span key={i} className="bg-teal-500 text-gray-900 py-1 px-3 rounded-full text-sm font-semibold mb-2">
+                <span key={i} className="bg-teal-500 text-gray-900 py-1 px-3 rounded-full text-sm font-semibold mb-2 mr-2">
                   {skill}
                 </span>
               ))}

@@ -8,14 +8,14 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    role: "Senior Software Engineer",
+    role: "Android Developer, Sr. Software Engineer",
     company: "Eli Lilly",
-    duration: "July 2021 - Present",
+    duration: "January 2024 - Present",
     description: [
-      "Developed an internal tool with Python to mitigate brand damage after a Twitter impersonation incident.",
-      "Implemented new features for Android applications using Jetpack Compose and Kotlin.",
-      "Revamped internal documentation standards, freeing up 8% of the engineering team’s time.",
-      "Partnered with stakeholders in the US, Germany, India, and England for technical requirements.",
+      "Led the technical aspects of projects and mentored junior engineers, ensuring the implementation of best " +
+      "practices and coding standards. I worked closely with stakeholders to translate business requirements into " +
+      "technical solutions, and became proficient in multiple programming languages and technologies. My expertise in " +
+      "system architecture, design, and performance optimization grew significantly during this time.",
     ],
     skills: ["Python", "Jetpack Compose", "Kotlin", "Documentation", "Stakeholder Management"],
   },
@@ -24,10 +24,23 @@ const experiences: Experience[] = [
     company: "Eli Lilly",
     duration: "January 2022 - December 2023",
     description: [
-      "Led development of Lilly’s Cloud, Analytics, and UI libraries for the Lilly Together mobile application.",
-      "Trained team members and third-party vendors, increasing team efficiency by 15%.",
-      "Negotiated technical resource allocation across projects, ensuring deadlines and budgets were met.",
-      "Developed an onboarding program, reducing new member productivity ramp-up time by 30%.",
+      "Combined technical expertise with leadership responsibilities, overseeing the technical direction of projects " +
+      "and guiding the development team. I made architectural decisions, conducted code reviews, and ensured the " +
+      "overall quality of software products. Additionally, I acted as a bridge between management and stakeholders and the development " +
+      "team, handling task allocation, timeline management, documentation, and the development of new team members, " +
+      "leveraging strong communication skills and deep technical knowledge.",
+    ],
+    skills: ["Python", "Jetpack Compose", "Kotlin", "Documentation", "Stakeholder Management"],
+  },
+  {
+    role: "Full-Stack Developer, Software Engineer",
+    company: "Eli Lilly",
+    duration: "July 2021 - January 2022",
+    description: [
+      "Designed, developed, and implemented software solutions. I wrote clean, efficient code, conducted code reviews, " +
+      "and collaborated with cross-functional teams to deliver high-quality software products. This position honed my " +
+      "skills in software architecture, design patterns, and best practices, and enhanced my ability to troubleshoot " +
+      "and improve existing systems.",
     ],
     skills: ["Leadership", "Training", "Negotiation", "Onboarding"],
   },
