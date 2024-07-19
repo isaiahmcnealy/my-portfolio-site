@@ -1,18 +1,27 @@
 // app/page.tsx
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+
+import '../styles/globals.css';
+import Navbar from '../components/Navbar';
+import Header from "@/components/Header";
+import Hero from '../components/Hero';
+import About from '../components/About';
+import Experience from '../components/Experience';
+import Projects from '../components/Projects';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Isaiah McNealy Portfolio</title>
-        <meta name="description" content="Portfolio website of Isaiah McNealy" />
-      </Head>
-      <div className={styles.main}>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Discover my work, projects, and blog.</p>
+    <div className="">
+      <Navbar />
+      <div className="">
+        <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
+        <Footer />
       </div>
-    </>
+    </div>
   );
 }
