@@ -5,7 +5,7 @@ const Contact = () => (
       <p className="mb-4">
         Feel free to reach out if you&apos;d like to discuss a project or just want to say hi!
       </p>
-      <a href="mailto:your-email@example.com" className="text-lg text-teal-500 border border-teal-500 rounded py-2 px-4 hover:bg-teal-500 hover:text-white transition-colors duration-300">
+      <a href="mailto:isaiah.mcnealy@rice.edu" className="text-lg text-teal-500 border border-teal-500 rounded py-2 px-4 hover:bg-teal-500 hover:text-white transition-colors duration-300">
         Get In Touch
       </a>
     </div>
