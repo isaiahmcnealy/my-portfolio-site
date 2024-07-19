@@ -1,7 +1,8 @@
+import Image from 'next/image';
+
 const About = () => (
   <section id="about" className="flex flex-col items-center justify-center py-20 bg-gray-800 text-white">
     <h2 className="text-3xl font-bold mb-8 text-teal-500">About Me</h2>
-    <img src="/path/to/photo.jpg" alt="Isaiah McNealy" className="w-40 h-40 rounded-full mb-8 border-4 border-teal-500" />
     <div className="max-w-3xl text-center mb-8">
       <p className="mb-4">
         Back in the day, I started as a nursing student, diving into the world of patient care. Fast forward to now, I’m a full-fledged software engineer, and the journey has been nothing short of exhilarating. The idea of building tools that help people accomplish their goals is thrilling to me. At Eli Lilly, I thrive in the fast-paced environment of the software product engineering team, which combines the dynamic energy of a startup with the resources of a large company.
