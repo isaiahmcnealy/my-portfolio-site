@@ -11,7 +11,7 @@ const About = () => (
         What I love most is the diversity of tasks I get to tackle. From developing full-stack test tools and leading backend development teams to creating mobile apps for Android and iOS, I’ve done it all. Collaborating across various domains, whether it’s with cybersecurity, legal teams, or recruiting and marketing to bring in diverse talent, keeps my workday exciting and rewarding.
       </p>
       <p>
-        Outside of work, you can find me coaching wrestling, exploring new travel destinations, or hiking with my dog. I’m also passionate about cooking and trying new foods, and I never miss a Jacksonville Jaguars game. My life is a blend of tech, teamwork, and tackling new challenges, both at work and beyond.
+        Outside of work, you can find me coaching wrestling, exploring new travel destinations, or hiking with my pup Luna. I’m also passionate about cooking and trying new foods, and I never miss a Jacksonville Jaguars game. My life is a blend of tech, teamwork, and tackling new challenges, both at work and beyond.
       </p>
     </div>
     <ul className="flex flex-wrap justify-center space-x-4">
