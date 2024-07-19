@@ -3,7 +3,7 @@ import React from 'react';
 import { FaTwitter, FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 
 const Footer:React.FC = () => (
-  <footer className="flex flex-col items-center py-6 bg-gray-900 text-white">
+  <footer className="flex flex-col items-center py-6 bg-gray-800 text-white">
     <ul className="flex items-center" aria-label="Social media">
       <li className="mr-5 text-xs shrink-0">
         <a
@@ -58,7 +58,7 @@ const Footer:React.FC = () => (
         </a>
       </li>
     </ul>
-    <p className="text-center text-sm text-gray-500">
+    <p className="text-center text-sm text-gray-500 mt-2">
       © {new Date().getFullYear()} Isaiah McNealy. All rights reserved.
     </p>
   </footer>

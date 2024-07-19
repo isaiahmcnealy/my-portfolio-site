@@ -23,7 +23,7 @@ const projects: Project[] = [
       "recognize celebrities and individuals for various applications in authentication, security, and personalized " +
       "services.",
     technologies: ["Python", "Scikit_Learn", "TensorFlow/Keras", "StandardScaler", "PCA (Principal Component Analysis)"],
-    demoLink: "https://github.com/isaiahmcnealy/GuessWho/tree/develop",
+    // demoLink: "https://github.com/isaiahmcnealy/GuessWho/tree/develop",
     codeLink: "https://github.com/isaiahmcnealy/GuessWho/tree/develop",
     image: "/images/guesswho.png",
   },
