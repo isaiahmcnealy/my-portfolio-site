@@ -5,17 +5,31 @@ const About = () => (
     <h2 className="text-3xl font-bold mb-8 text-teal-500">About Me</h2>
     <div className="max-w-3xl text-center mb-8">
       <p className="mb-4">
-        Back in the day, I started as a nursing student, diving into the world of patient care. Fast forward to now, I’m a full-fledged software engineer, and the journey has been nothing short of exhilarating. The idea of building tools that help people accomplish their goals is thrilling to me. At Eli Lilly, I thrive in the fast-paced environment of the software product engineering team, which combines the dynamic energy of a startup with the resources of a large company.
+        My journey began in the world of patient care as a nursing student, but my passion for building tools that help
+        people achieve their goals led me to become a full-fledged software engineer. The transition has been nothing
+        short of exhilarating. Now, at Eli Lilly, I thrive on the software product engineering team, where I get to
+        experience the dynamic energy of a startup, backed by the resources of a large company.
       </p>
       <p>
-        What I love most is the diversity of tasks I get to tackle. From developing full-stack test tools and leading backend development teams to creating mobile apps for Android and iOS, I’ve done it all. Collaborating across various domains, whether it’s with cybersecurity, legal teams, or recruiting and marketing to bring in diverse talent, keeps my workday exciting and rewarding.
+        What excites me the most is the diversity of challenges I tackle daily. From developing full-stack test tools
+        and leading backend development teams to creating mobile apps for Android and iOS, I’ve had the privilege of
+        working across a broad spectrum of projects. Whether collaborating with cybersecurity and legal teams or
+        partnering with recruiting and marketing to bring in diverse talent, every day brings new and rewarding
+        experiences.
       </p>
       <p>
-        Outside of work, you can find me coaching wrestling, exploring new travel destinations, or hiking with my pup Luna. I’m also passionate about cooking and trying new foods, and I never miss a Jacksonville Jaguars game. My life is a blend of tech, teamwork, and tackling new challenges, both at work and beyond.
+        When I’m not immersed in tech, you can find me coaching wrestling, exploring new travel destinations, or
+        hiking with my pup, Luna. I’m also passionate about cooking, trying new foods, and cheering on the Jacksonville
+        Jaguars. My life is a blend of technology, teamwork, and tackling new challenges, both in my professional and
+        personal life.
+      </p>
+      <p>
+        If you’re interested in collaborating to build something amazing, exchanging ideas, or even swapping recipes,
+        I’d love to connect! Feel free to reach out!
       </p>
     </div>
     <ul className="flex flex-wrap justify-center space-x-4">
-      {['Machine Learning', 'Software Engineering', 'Technical Project Management'].map(skill => (
+      {['Software Engineering', 'Technical Leadership', 'Machine Learning', 'Project Management'].map(skill => (
         <li key={skill} className="text-teal-500">{skill}</li>
       ))}
     </ul>
@@ -23,3 +37,8 @@ const About = () => (
 );
 
 export default About;
+
+
+
+
+
