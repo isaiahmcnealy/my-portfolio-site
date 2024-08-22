@@ -5,13 +5,14 @@ const About = () => (
     <h2 className="text-3xl font-bold mb-8 text-teal-500">About Me</h2>
     <div className="max-w-3xl text-center mb-8">
       <p className="mb-4">
-        My journey began in the world of patient care as a nursing student, but my passion for building tools that help
-        people achieve their goals led me to become a full-fledged software engineer. The transition has been nothing
-        short of exhilarating. Now, at Eli Lilly, I thrive on the software product engineering team, where I get to
-        experience the dynamic energy of a startup, backed by the resources of a large company.
+        My journey began in patient care as a nursing student, but my passion for technology and problem-solving led
+        me to software engineering. This exhilarating transition has allowed me to merge my desire to help others with
+        innovative tech solutions. At Eli Lilly, I thrive on the Software Product Engineering team,
+        embracing the fast-paced, dynamic energy similar to a startup. I excel at wearing multiple hats, balancing
+        various responsibilities, and driving impactful projects forward in a high-energy environment.
       </p>
       <p>
-        What excites me the most is the diversity of challenges I tackle daily. From developing full-stack test tools
+        I’m most excited by the diversity of challenges I tackle daily. From developing full-stack test tools
         and leading backend development teams to creating mobile apps for Android and iOS, I’ve had the privilege of
         working across a broad spectrum of projects. Whether collaborating with cybersecurity and legal teams or
         partnering with recruiting and marketing to bring in diverse talent, every day brings new and rewarding
@@ -24,8 +25,8 @@ const About = () => (
         personal life.
       </p>
       <p>
-        If you’re interested in collaborating to build something amazing, exchanging ideas, or even swapping recipes,
-        I’d love to connect! Feel free to reach out!
+        I’d love to connect—whether it’s to build something amazing, exchange ideas, or even swap recipes!
+        Feel free to reach out and say hi. :)
       </p>
     </div>
     <ul className="flex flex-wrap justify-center space-x-4">
