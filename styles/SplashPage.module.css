@@ -1,0 +1,77 @@
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333333; /* Charcoal Gray */
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: opacity 1.5s ease; /* Match the fade-out effect with the panel transition duration */
+}
+
+.panelWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Ensure that no overflow occurs */
+}
+
+.preloaderImg {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  transition: transform 1.5s ease; /* Match the transition duration with the panels */
+  width: 100px;
+  height: auto;
+  z-index: 11; /* Ensure it is above panels initially */
+}
+
+.panelLeft,
+.panelRight {
+  position: absolute;
+  background-color: #333333; /* Charcoal Gray */
+  transform-style: preserve-3d;
+  z-index: 10; /* Ensure it is above other elements */
+  transition: transform 1.5s ease; /* Smooth transition */
+}
+
+/* PanelLeft covers the top-left half of the screen */
+.panelLeft {
+  width: 50%; /* Half the width of the screen */
+  height: 50%; /* Half the height of the screen */
+  top: 0;
+  left: 0;
+  transform: translate3d(0, 0, 0) skew(0deg, -45deg); /* Initial position */
+}
+
+/* PanelRight covers the bottom-right half of the screen */
+.panelRight {
+  width: 50%; /* Half the width of the screen */
+  height: 50%; /* Half the height of the screen */
+  bottom: 0;
+  right: 0;
+  transform: translate3d(0, 0, 0) skew(0deg, -45deg); /* Initial position */
+}
+
+/* Animation for hiding the panels */
+.hide .panelLeft {
+  transform: translate3d(-100vw, -100vh, 0) skew(0deg, -45deg); /* Slide out to top-left */
+}
+
+.hide .panelRight {
+  transform: translate3d(100vw, 100vh, 0) skew(0deg, -45deg); /* Slide out to bottom-right */
+}
+
+.hide .preloaderImg {
+  transform: translate3d(200%, 200%, 0) scale3d(1, 1, 1); /* Move further off-screen */
+}
+
+.hide {
+  opacity: 0;
+  pointer-events: none;
+}
