@@ -11,7 +11,7 @@ const SplashPage: React.FC = () => {
     // Set timeout to hide the splash screen after the animation
     const timer = setTimeout(() => {
       setIsVisible(false);
-    }, 2000); // Adjust duration to match the length of your animation
+    }, 500); // Adjust duration to match the length of your animation
 
     return () => clearTimeout(timer);
   }, []);
@@ -20,8 +20,8 @@ const SplashPage: React.FC = () => {
     <div className={`${styles.preloader} ${!isVisible && styles.hide}`}>
       <div className={styles.panelWrapper}>
         <img
-          src="https://cdn.prod.website-files.com/61dd9ddd76c6a058a47a4c57/623374ba0955641189595aea_Logo_Bazil-white.svg"
-          alt="Bazil logo - white"
+          src="/images/name-logo-v1.svg"
+          alt="Isaiah logo - white"
           className={styles.preloaderImg}
         />
         <div className={styles.panelLeft}></div>
